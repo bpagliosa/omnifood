@@ -1,5 +1,13 @@
 /* Big tablet to 1200px (widths smaller than 1140px row) */
 @media only screen and (max-width: 1200px) {
+  .hero-text-box {
+    width: 1140px;
+    padding: 0 2%;
+  }
+
+  .row {
+    padding: 0 2%;
+  }
 }
 
 /* Small tablet to big tablet: from 760px to 1023px */
